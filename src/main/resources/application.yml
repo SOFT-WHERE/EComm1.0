@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: ecomm
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ecommdb
+    username: kgbdb
+    password: kgbdb
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#  h2:
+#    console:
+#      enabled: true
+#  datasource:
+#    url: jdbc:h2:mem:test
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  info:
+    git:
+      enabled: true
+    build:
+      enabled: true
+    env:
+      enabled: true
