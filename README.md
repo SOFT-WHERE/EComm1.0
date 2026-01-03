@@ -52,3 +52,16 @@ Make sure you have installed:
 ```bash
 git clone https://github.com/SOFT-WHERE/EComm1.0.git
 cd EComm1.0
+docker-compose up -d
+```
+
+
+
+Postman / API Endpoints
+| Endpoint             | Method | Description        |
+| -------------------- | ------ | ------------------ |
+| `/api/products`      | GET    | Get all products   |
+| `/api/products/{id}` | GET    | Get product by ID  |
+| `/api/cart`          | POST   | Add to cart        |
+| `/api/orders`        | POST   | Create a new order |
+
