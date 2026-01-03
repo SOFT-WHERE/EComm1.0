@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Features
+## Features
 
 ✅ User registration and authentication  
 ✅ Product catalog and listings  
@@ -17,7 +17,7 @@
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -31,11 +31,11 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 These instructions will help you get a working local copy of the project for development and testing.
 
-### 🧪 Prerequisites
+### Prerequisites
 
 Make sure you have installed:
 
@@ -45,7 +45,7 @@ Make sure you have installed:
 
 ---
 
-## 📥 Installation
+## Installation
 
 ### Clone the repository
 
